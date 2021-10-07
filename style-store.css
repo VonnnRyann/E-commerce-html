@@ -3,6 +3,7 @@ body {
     background-position: center center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    text-align: center;
 }
 header, header:first-of-type > img:nth-last-of-type(1){
     display: block;
@@ -45,14 +46,16 @@ header, header:first-of-type > img:nth-last-of-type(1){
         margin: 0px 1.46%;
         background-color: rgb(233, 206, 170);
     }
-    p {
-        text-align: center;
-    }
     span {
         padding: 10px;
     }
     span:first-of-type{
         color: crimson;
+    }
+    img:first-of-type {
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
     img {
         border-top-left-radius:10px;
