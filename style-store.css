@@ -33,7 +33,7 @@ header, header:first-of-type > img:nth-last-of-type(1){
         height: 350px;
         display: inline-block;
         border-radius: 10px;
-        box-shadow: 8px 8px rgba(253, 241, 241, 0.589);
+        box-shadow: -2px -2px 8px 8px rgba(5, 4, 4, 0.589);
         margin: 0px 1.85%;
         background-color: rgb(238, 215, 184);
     }
@@ -42,7 +42,7 @@ header, header:first-of-type > img:nth-last-of-type(1){
         height: 350px;
         display: inline-block;
         border-radius: 10px;
-        box-shadow: 8px 8px rgba(253, 241, 241, 0.589);
+        box-shadow: -2px -2px 8px 8px rgba(3, 3, 3, 0.589);
         margin: 0px 1.85%;
         background-color: rgb(233, 206, 170);
     }
