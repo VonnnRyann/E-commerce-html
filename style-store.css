@@ -22,7 +22,7 @@ header, header:first-of-type > img:nth-last-of-type(1){
         margin-bottom: 20px;
     }
     section {
-        width: 700px;
+        width: 718px;
         height: 350px;
         display: block;
         margin: auto;
@@ -34,7 +34,7 @@ header, header:first-of-type > img:nth-last-of-type(1){
         display: inline-block;
         border-radius: 10px;
         box-shadow: 4px 4px rgb(121, 110, 110);
-        margin: 0px 1.46%;
+        margin: 0px 1.85%;
         background-color: rgb(238, 215, 184);
     }
     section:last-of-type > div  {
@@ -43,7 +43,7 @@ header, header:first-of-type > img:nth-last-of-type(1){
         display: inline-block;
         border-radius: 10px;
         box-shadow: 4px 4px rgb(121, 110, 110);
-        margin: 0px 1.46%;
+        margin: 0px 1.85%;
         background-color: rgb(233, 206, 170);
     }
     span {
@@ -54,23 +54,23 @@ header, header:first-of-type > img:nth-last-of-type(1){
     }
     img:first-of-type {
         border-bottom-left-radius: 20px;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-    }
-    img {
-        border-top-left-radius:10px;
+        border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+    }
+    body > img:first-of-type {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
     }
     .carting {
         border: black solid 1px;
         background-color: cornflowerblue;
-        box-shadow: 2px 2px 2px 2px;
+        box-shadow: 0px 0px 4px 4px;
     }
     footer > img:first-of-type {
         display: block;
         margin: auto;
         margin-bottom: 10px;
-        margin-top: 10px;
+        margin-top: 20px;
         height: 700px;border-top-left-radius:0px;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 20px;
